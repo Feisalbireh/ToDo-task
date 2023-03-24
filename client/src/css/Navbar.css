@@ -1,0 +1,81 @@
+/* NavBar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #2a2a72;
+  }
+  
+  .brand{
+    color: #EAF6FF;
+    text-decoration: none;
+  }
+  
+  .menu{
+    color: #EAF6FF;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  Link {
+    color: #6c8aa0;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  Link:hover {
+    color: #EAF6FF;
+  }
+  
+  .ecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ewrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* added this line to center the child elements within the wrapper */
+    text-align: center;
+    height: 33vh;
+    width: 28vw;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #EAF6FF;
+    padding: 20px;
+  }
+  
+  .eheader{
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    font-size: 1.5em; /* added this line to increase the font size of the header */
+    font-weight: bold; /* added this line to make the header text bold */
+    padding-bottom: 5px;
+  }
+  
+  .enum{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 5px; /* added this line to add some padding inside the input field */
+    margin-top: 16px; 
+  }
